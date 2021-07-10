@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="icon" href="/images/favicon.png">
+    <title>Medes</title>
+</head>
+<body>
+      <section class="relative overflow-hidden">
+        <img class="hidden lg:block absolute inset-0 w-full" src="atis-assets/background/lines.svg" alt="">
+        <nav class="relative px-6 py-6 flex justify-between items-center bg-green-50">
+          <a class="text-3xl font-bold leading-none" href="#">
+            <img class="h-12" src="/images/log-png.png" alt="" width="auto">
+          </a>
+          <div class="lg:hidden">
+            <button class="navbar-burger flex items-center text-gray-400 p-3">
+              <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Mobile menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+              </svg>
+            </button>
+          </div>
+          <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+            <li><a class="text-sm text-gray-400 hover:text-gray-700" href="#">Start</a></li>
+            <li class="text-gray-800">
+              <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+              </svg>
+            </li>
+            <li><a class="text-sm text-gray-400 hover:text-gray-700" href="#">About Us</a></li>
+            <li class="text-gray-800">
+              <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+              </svg>
+            </li>
+            <li><a class="text-sm text-gray-400 hover:text-gray-700" href="#">Services</a></li>
+            <li class="text-gray-800">
+              <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+              </svg>
+            </li>
+            <li><a class="text-sm text-gray-400 hover:text-gray-700" href="#">Platform</a></li>
+            <li class="text-gray-800">
+              <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+              </svg>
+            </li>
+            <li><a class="text-sm text-gray-400 hover:text-gray-700" href="#">Testimonials</a></li>
+          </ul>
+          <a class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-50 text-sm text-green-600 font-bold rounded-l-xl rounded-t-xl transition duration-200" href="#">Contact Us</a>
+        </nav>
+        <div class="relative bg-green-50 pt-12 lg:pt-20 pb-12 md:pb-24">
+          <div class="container mx-auto px-4">
+            <div class="flex flex-wrap -mx-4">
+              <div class="w-full lg:w-1/2 px-4 mb-12 md:mb-20 lg:mb-0 flex items-center">
+                <div class="w-full text-center lg:text-left">
+                  <div class="max-w-md mx-auto lg:mx-0">
+                    <h2 class="mb-3 text-4xl lg:text-5xl font-bold font-heading">
+                      <span>Order &amp; get Delivered</span>
+                      <span class="text-green-600">without any trouble</span>
+                    </h2>
+                  </div>
+                  <div class="max-w-sm mx-auto lg:mx-0">
+                    <p class="mb-6 text-gray-400 leading-loose">Get free medicine home delivery in over 100+ cities across India.</p>
+                    <div><a class="inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose bg-green-600 hover:bg-green-700 text-white font-semibold rounded-l-xl rounded-t-xl transition duration-200" href="#">Upload Prescription</a><a class="inline-block w-full lg:w-auto py-2 px-6 leading-loose font-semibold bg-white hover:bg-gray-50 rounded-l-xl rounded-t-xl transition duration-200" href="#">E-Store</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full lg:w-1/2 px-4 flex items-center justify-center">
+                <div class="relative" style="z-index: 0;">
+                  <img class="h-128 w-full max-w-lg object-cover rounded-3xl md:rounded-br-none" src="/images/pharmacy-store.png" alt="">
+                  <img class="hidden md:block absolute" style="top:-2rem; right: 3rem; z-index: -1;" src="atis-assets/elements/green-dark-up.svg" alt="">
+                  <img class="hidden md:block absolute" style="bottom:-2rem; right: -2rem; z-index: -1;" src="atis-assets/elements/wing-green-down.svg" alt="">
+                  <img class="hidden md:block absolute" style="top:3rem; right: -3rem; z-index: -1;" src="atis-assets/elements/bullets-gray-right.svg" alt="">
+                  <img class="hidden md:block absolute" style="bottom:2.5rem; left: -4.5rem; z-index: -1;" src="atis-assets/elements/bullets-gray-left.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden navbar-menu relative z-50">
+          <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+          <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+            <div class="flex items-center mb-8">
+              <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                <img class="h-10" src="atis-assets/logo/atis/atis-mono-black.svg" alt="" width="auto">
+              </a>
+              <button class="navbar-close">
+                <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+              </button>
+            </div>
+            <div>
+              <ul>
+                <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Start</a></li>
+                <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">About Us</a></li>
+                <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Services</a></li>
+                <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Platform</a></li>
+                <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="mt-auto">
+              <div class="pt-6"><a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-l-xl rounded-t-xl" href="#">Sign In</a><a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-green-700 rounded-l-xl rounded-t-xl" href="#">Sign Up</a></div>
+              <p class="my-4 text-xs text-center text-gray-400">
+                <span>© 2020 All rights reserved.</span>
+              </p>
+              <div class="text-center">
+                <a class="inline-block px-1" href="#">
+                  <img src="atis-assets/social/facebook.svg" alt="">
+                </a>
+                <a class="inline-block px-1" href="#">
+                  <img src="atis-assets/social/twitter.svg" alt="">
+                </a>
+                <a class="inline-block px-1" href="#">
+                  <img src="atis-assets/social/instagram.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+
+
+
+
+
+      <div class="container xl:w-full w-11/12 mx-auto pt-16">
+        <div class="w-full">
+            <p class="text-green-600 text-lg font-normal pb-3 sm:text-left text-center">BUILDING TEAM</p>
+            <h1 class="xl:text-4xl lg:text-4xl text-3xl sm:text-left text-center text-gray-800 font-extrabold sm:w-4/6 w-5/6 mx-auto sm:mx-0">The Talented People Behind the Project</h1>
+        </div>
+        <div class="xl:flex lg:flex md:flex sm:flex flex-4 justify-between pt-20">
+            <div class="xl:w-4/12 lg:w-2/4 md:w-2/4 sm:w-2/5 max-w-sm mb-8 border-b border-gray-300 pb-6">
+                <div class="w-full rounded h-56">
+                    <img src="/images/arun.jpg" alt="Display picture of Silene Tokyo" role="img" class="object-cover h-full w-full overflow-hidden rounded shadow" />
+                </div>
+                <div class="flex w-full items-center justify-between pt-6 pb-1">
+                    <p class="text-xl font-normal text-gray-800">Arun Kumar</p>
+                    <div class="flex justify-center">
+                        <a aria-label="Open github" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Open twitter" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Open instagram" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <p class="text-base text-gray-600 pb-3">Team Leader</p>
+                <p class="text-sm text-gray-600 leading-6 font-normal">&nbsp;A Basic level&nbsp; programmer </b>specializing
+                  in front end-<b></b>development. Experienced with all stages of the development
+                  cycle for dynamic web projects. Well-versed in numerous programming languages
+                  including HTML5/CSS, Java, C, MySQL with interest in Music , Art and Dance&nbsp;</p>
+            </div>
+            <div class="xl:w-4/12 lg:w-2/4 md:w-2/5 sm:w-2/5 mx-4 max-w-sm mb-8 border-b border-gray-300 pb-6">
+                <div class="w-full rounded h-56">
+                    <img src="/images/Abhi.jpg" alt="Display picture of Silene Tokyo" role="img" class="object-cover h-full w-full overflow-hidden rounded shadow" />
+                </div>
+                <div class="flex w-full items-center justify-between pt-6 pb-1">
+                    <p class="text-xl font-normal text-gray-800">Abhishek Tiwari</p>
+                    <div class="flex justify-center">
+                        <a aria-label="Open github" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Open twitter" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Open instagram" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <p class="text-base text-gray-600 pb-3">Project Co-Leader</p>
+                <p class="text-sm text-gray-600 leading-6 font-normal">&nbsp;A Basic level&nbsp; programmer </b>specializing
+                  in front end-<b></b>development. Experienced with all stages of the development
+                  cycle for dynamic web projects. Well-versed in numerous programming languages
+                  including HTML5/CSS, Java, C, MySQL with interest in Music , Art and Dance&nbsp;</p>
+            </div>
+            <div class="xl:w-4/12 lg:w-2/4 md:w-2/5 sm:w-2/5 max-w-sm mb-8 px-1 border-b border-gray-300 pb-6">
+                <div class="w-full rounded h-56">
+                    <img src="/images/Maya.jpeg" alt="Display picture of Silene Tokyo" role="img" class="object-cover h-full w-full overflow-hidden rounded shadow" />
+                </div>
+                <div class="flex w-full items-center justify-between pt-6 pb-1">
+                    <p class="text-xl font-normal text-gray-800">Mayank Singh</p>
+                    <div class="flex justify-center">
+                        <a aria-label="Open github" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Open twitter" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Open instagram" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <p class="text-base text-gray-600 pb-3">Backend Developer</p>
+                <p class="text-sm text-gray-600 leading-6 font-normal">&nbsp;A Basic level&nbsp; programmer </b>specializing
+                  in front end-development. Experienced with all stages of the development
+                  cycle for dynamic web projects. Well-versed in numerous programming languages
+                  including HTML5/CSS, Java, C, MySQL with interest in Music , Art and Dance&nbsp;</p>
+            </div>
+            <div class="xl:w-4/12 lg:w-2/4 md:w-2/5 sm:w-2/5 max-w-sm mb-8 px-1 border-b border-gray-300 pb-6">
+                <div class="w-full rounded h-56">
+                    <img src="/images/vishal.jpg" alt="Display picture of Silene Tokyo" role="img" class="object-cover h-full w-full overflow-hidden rounded shadow" />
+                </div>
+                <div class="flex w-full items-center justify-between pt-6 pb-1">
+                    <p class="text-xl font-normal text-gray-800">Vishal Sahu</p>
+                    <div class="flex justify-center">
+                        <a aria-label="Open github" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Open twitter" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="Open instagram" role="link" href="javascript:void(0)" class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#718096" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <p class="text-base text-gray-600 pb-3">UI Designer</p>
+                <p class="text-sm text-gray-600 leading-6 font-normal">An intermediate programmer specializing
+                  in front end<b></b>development. Experienced with all stages of the development
+                  cycle for dynamic web projects. Well-versed in numerous programming languages
+                  including HTML5/CSS with interest in Gaming, Digital
+                  designing.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+      <footer class="bg-gray-800 pt-10 sm:mt-10 pt-10">
+        <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
+            <!-- Col-1 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-green-400 font-medium mb-6">
+                    Know Us
+                </div>
+    
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    About Us
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Contact Us
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Careers
+                </a>
+            </div>
+    
+            <!-- Col-2 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-green-400 font-medium mb-6">
+                    Services
+                </div>
+    
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Priscription Check
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    E-Store
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Packaging
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Payment System
+                </a>
+            </div>
+    
+            <!-- Col-3 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-green-400 font-medium mb-6">
+                    Need Help
+                </div>
+    
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    FAQs
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Term and Conditions
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Return Policy
+                </a>
+            </div>
+    
+            <!-- Col-3 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-green-400 font-medium mb-6">
+                    Community
+                </div>
+    
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    GitHub
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Discord
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Twitter
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    YouTube
+                </a>
+            </div>
+        </div>
+    
+        <!-- Copyright Bar -->
+        <div class="pt-2">
+            <div class="flex pb-5 px-3 m-auto pt-5 
+                border-t border-gray-500 text-gray-400 text-sm 
+                flex-col md:flex-row max-w-6xl">
+                <div class="mt-2 text-green-400">
+                    © Copyright 2020-year. All Rights Reserved.
+                </div>
+    
+                <!-- Required Unicons (if you want) -->
+                <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-youtube"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/public/js/app.js"></script>
+</body>
+</html>
